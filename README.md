@@ -12,6 +12,9 @@ tree-sitter-mor nvim integration
     },
     config = function()
         require("tree-sitter-mor").setup()
+    end,
+    build = function()
+        require("tree-sitter-mor").build()
     end
 }
 
